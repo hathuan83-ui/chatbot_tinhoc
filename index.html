@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trợ lí AI Tin học 10</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">AI Tin học 10</div>
+      <button id="newChatBtn" class="primary-btn">+ Cuộc trò chuyện mới</button>
+      <div class="menu-title">Gợi ý nhanh</div>
+      <div class="quick-list">
+        <button class="quick-item">Giải thích biến trong Python là gì?</button>
+        <button class="quick-item">Viết chương trình tính tổng 2 số nguyên</button>
+        <button class="quick-item">Cho 5 câu trắc nghiệm về an toàn số</button>
+        <button class="quick-item">Sửa lỗi đoạn mã Python này</button>
+      </div>
+      <div class="menu-title">Mục tiêu sư phạm</div>
+      <ul class="goal-list">
+        <li>Giải thích dễ hiểu theo SGK Tin học 10</li>
+        <li>Hỗ trợ lý thuyết, Python, gỡ lỗi, trắc nghiệm</li>
+        <li>Khuyến khích tự học, tự luyện tập</li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1>Trợ lí AI hỗ trợ học Tin học 10</h1>
+          <p>Bản online triển khai 1 link duy nhất</p>
+        </div>
+        <div class="status"><span class="dot"></span> Sẵn sàng</div>
+      </header>
+
+      <section id="chatWindow" class="chat-window">
+        <div class="message assistant">
+          <div class="avatar">AI</div>
+          <div class="bubble">Xin chào! Tôi là trợ lí AI hỗ trợ học Tin học 10. Em có thể hỏi về lý thuyết, Python, trắc nghiệm, gỡ lỗi hoặc nhờ tạo bài tập.</div>
+        </div>
+      </section>
+
+      <section class="composer">
+        <textarea id="promptInput" rows="3" placeholder="Nhập câu hỏi của bạn..."></textarea>
+        <div class="composer-actions">
+          <span class="hint">Mẹo: có thể nhập cả đoạn mã Python để nhờ AI sửa lỗi.</span>
+          <button id="sendBtn" class="send-btn">Gửi</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
