@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trợ lí AI hỗ trợ học sinh học Tin học 10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-card">
+        <div class="brand-badge">AI EDUCATION</div>
+        <h1>Trợ lí AI<br />Tin học 10</h1>
+        <p>Phiên bản giao diện nâng cấp để dự thi cấp tỉnh, hỗ trợ hỏi đáp kiến thức và bài tập Tin học 10.</p>
+      </div>
+
+      <div class="side-section">
+        <h2>Tính năng nổi bật</h2>
+        <ul>
+          <li>Giải thích bài học dễ hiểu</li>
+          <li>Gợi ý làm bài Python từng bước</li>
+          <li>Thiết kế đẹp, hiện đại, dễ trình diễn</li>
+          <li>Xuất nhanh nội dung hội thoại</li>
+        </ul>
+      </div>
+
+      <div class="side-section quick-prompts">
+        <h2>Câu hỏi mẫu</h2>
+        <button class="prompt-btn">Giải thích thuật toán là gì cho học sinh lớp 10.</button>
+        <button class="prompt-btn">Viết chương trình Python tính tổng 2 số nguyên.</button>
+        <button class="prompt-btn">Nêu 3 biện pháp an toàn khi sử dụng Internet.</button>
+        <button class="prompt-btn">Phân biệt dữ liệu và thông tin bằng ví dụ thực tế.</button>
+      </div>
+    </aside>
+
+    <main class="chat-panel">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">SẢN PHẨM DỰ THI</p>
+          <h2>Trợ lí AI hỗ trợ học sinh học Tin học 10</h2>
+        </div>
+        <div class="top-actions">
+          <button id="clearChatBtn" class="ghost-btn">Xóa hội thoại</button>
+          <button id="exportBtn" class="primary-btn">Xuất TXT</button>
+        </div>
+      </header>
+
+      <section id="chatBox" class="chat-box" aria-live="polite">
+        <div class="message ai welcome">
+          <div class="avatar">AI</div>
+          <div class="bubble">
+            <h3>Xin chào cô và các em 👋</h3>
+            <p>Em là trợ lí AI hỗ trợ học sinh học <strong>Tin học 10</strong>. Em có thể:</p>
+            <ul>
+              <li>Giải thích bài học bằng ngôn ngữ dễ hiểu</li>
+              <li>Hướng dẫn làm bài tập Python từng bước</li>
+              <li>Ôn tập kiến thức, tạo ví dụ, hệ thống hóa nội dung</li>
+            </ul>
+            <p>Hãy nhập câu hỏi ở phía dưới để bắt đầu.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="composer">
+        <div class="composer-box">
+          <textarea id="userInput" rows="1" placeholder="Nhập câu hỏi của bạn tại đây..."></textarea>
+          <button id="sendBtn" class="send-btn">Gửi</button>
+        </div>
+        <p class="composer-note">Mẹo: nhấn <strong>Enter</strong> để gửi, <strong>Shift + Enter</strong> để xuống dòng.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

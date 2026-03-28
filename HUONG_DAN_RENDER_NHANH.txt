@@ -1,0 +1,14 @@
+QUY TRÌNH ĐƯA SẢN PHẨM LÊN RENDER
+
+1. Tạo repository mới trên GitHub.
+2. Upload toàn bộ file trong thư mục này lên GitHub.
+3. Vào Render > New > Web Service.
+4. Kết nối repository GitHub vừa tạo.
+5. Điền:
+   - Build Command: npm install
+   - Start Command: npm start
+6. Vào mục Environment.
+7. Thêm biến:
+   GEMINI_API_KEY = ma_api_gemini_cua_ban
+8. Deploy.
+9. Khi Render cấp link, mở link để chạy thử.
