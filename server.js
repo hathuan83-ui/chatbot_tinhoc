@@ -1,7 +1,11 @@
-const express = require("express");
-const path = require("path");
+import express from "express";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const app = express();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use(express.json());
 app.use(express.static(__dirname));
@@ -20,7 +24,6 @@ app.post("/chat", async (req, res) => {
       return res.json({ reply: "Bạn hãy nhập câu hỏi." });
     }
 
-    // Trả lời tạm thời
     res.json({
       reply: "Bạn vừa hỏi: " + userMessage
     });
