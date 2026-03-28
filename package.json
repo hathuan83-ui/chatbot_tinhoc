@@ -1,0 +1,14 @@
+{
+  "name": "tro-li-ai-tin-hoc-10",
+  "version": "1.0.0",
+  "description": "Tro li AI ho tro hoc sinh hoc Tin hoc 10 - Ket noi tri thuc",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "express": "^4.21.2"
+  }
+}

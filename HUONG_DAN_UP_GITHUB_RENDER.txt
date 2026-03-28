@@ -1,0 +1,10 @@
+1. Giai nen file zip.
+2. Xoa file cu trong repo GitHub neu can.
+3. Upload toan bo file moi len repo.
+4. Commit changes.
+5. Vao Render -> New Web Service.
+6. Ket noi repo GitHub vua tao.
+7. Build Command: npm install
+8. Start Command: npm start
+9. Them bien moi truong GEMINI_API_KEY
+10. Deploy va doi lay link chay that.
