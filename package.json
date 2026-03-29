@@ -1,0 +1,18 @@
+{
+  "name": "chatbot-tinhoc-thpt-dongtho-upgrade",
+  "version": "2.0.0",
+  "description": "Trợ lí AI môn Tin học THPT - Kết nối tri thức",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "docx": "^9.0.0",
+    "express": "^4.21.2",
+    "pdfkit": "^0.15.0"
+  }
+}
